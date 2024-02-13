@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon 2024</title>
+  <!-- Bootstrap Online y Offline -->
+  <link rel="stylesheet" href="CSS/Bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- CSS, Iconos y Fuentes-->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/font/bootstrap-icons.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="IMG/Favicon/icons8-h-32.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+  <!-- BARRA DE NAVEGACIÓN -->
+  <div class="container-fluid  ">
+    <div class="row degradado border-bottom">
+      <div class="col ">
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg barra__navegacion py-2">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-lg-none" href="#"> <img src="IMG/Hackathon.png" alt="Logo Hackathon"
+                width="170px"></a>
+            <!-- Botón para desplegar en pantallas pequellas -->
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-white  "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav fs-5 container-xl d-flex text-center justify-content-around">
+                <!-- Opciones -->
+                <a class="nav-link active text-white" aria-current="page" href="#hackathon"><i
+                    class="bi bi-patch-question-fill d-lg-none"></i> ¿En que consiste?</a>
+                <a class="nav-link text-white" href="#reto"><i class="bi bi-backpack-fill d-lg-none"></i></i> Reto</a>
+                <a class="nav-link text-white" href="#fases"><i class="bi bi-bar-chart-line-fill d-lg-none"></i>
+                  Fases</a>
+                <a class="nav-link text-white" href="#galeria"><i class="bi bi-images d-lg-none"></i> Galeria</a>
+                <a class="nav-link text-white" href="#desarrollo"><i class="bi bi-globe d-lg-none"></i> Desarrollo
+                  Web</a>
+                <a class="nav-link text-white" href="#faqs"><i class="bi bi-people-fill d-lg-none"></i> FAQS</a>
+                <a class="nav-link text-white" href="#datos"><i class="bi bi-calendar3-week-fill d-lg-none"></i>
+                  Datos</a>
+                <!-- <a class="nav-link text-white" href="#novedades"><i class="bi bi-newspaper d-lg-none"></i> Novedades</a> -->
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center fondo">
+      <img src="IMG/portada2.png" alt="" class="bi-image slide-in-bck-center ">
+    </div>
+
+  </div>
+
+  <!-- EN QUE CONSISTE HACKATHON -->
+  <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 degradado " id="hackathon">¿ E N&ThinSpace;
+    Q U E&ThinSpace; C O N S I S T E ?</h1>
+  <main class="row justify-content-center mb-3 ">
+    <div class="col-11">
+      <div class="row hackathon text-center mt-2 justify-content-around ">
+        <!-- Anuncio 1 -->
+        <div class="col-md-6 col-lg-3 mt-3">
+          <h3 class="titulo">RETO</h3>
+          <img src="IMG/Icons/cerebro.png" alt="cerebro" class="img-fluid rounded mt-4">
+          <p class="mt-4 parrafos">Tendrás que resolver un reto que se os revelará el mismo dia del evento. Hasta
+            entonces es secreto</p>
+        </div>
+        <!-- Anuncio 2 -->
+        <div class="col-md-6 col-lg-3 mt-3">
+          <h3 class="titulo">EQUIPO</h3>
+          <img src="IMG/Icons/audiencia.png" alt="audencia" class="img-fluid rounded mt-4">
+          <p class="mt-4 parrafos">Trabaja en equipo con participantes de otros centros educativos</p>
+        </div>
+        <!-- Anuncio 3 -->
+
+        <div class="col-md-6 col-lg-3 mt-3">
+          <h3 class="titulo">ACOMPAÑAMIENTO</h3>
+          <img src="IMG/Icons/caja-de-herramientas.png" alt="caja" class="img-fluid rounded mt-4">
+          <p class="mt-4 parrafos">Conoce in situ las herramientas de emprendimiento más innovadoras</p>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-3">
+          <h3 class="titulo">PREMIO</h3>
+          <img src="IMG/Icons/money-management.png" alt="money" class="img-fluid rounded mt-4">
+          <p class="mt-4 parrafos">Vale de 50€ para canjear en una papeleria para cada miembro del equipo ganador</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- RETO -->
+  <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 degradado" id="reto">R E T O</h1>
+
+  <main class="justify-content-center mb-3 mt-3 d-flex align-content-center flex-column justify-content-center align-items-center ">
+    <!-- Foto de patricia -->
+    <div class="card mt-5 p-3 " style="width: 35rem;">
+      <img src="IMG/foto_patricia_sanchez.jpg" class="card-img-top img-fluid" alt="Patricia">
+      <div class="card-body text-center">
+        <p class="card-text parrafos  ">Reto propuesto por <br> <strong class="fs-2">Patricia Sánchez</strong></p>
+      </div>
+    </div>
+    <!-- Accordion -->
+    <!-- Bloque 1 -->
+    <div class="accordion mt-5" id="PanelReto"  style="width: 100%;">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button parrafos" type="button" data-bs-toggle="collapse" data-bs-target="#panelReto1" aria-expanded="false" aria-controls="panelReto1">
+            ESTUDIOS Y EXPERIENCIA
+          </button>
+        </h2>
+        <!-- Panel 1 -->
+        <div id="panelReto1" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Estudió Derecho (Law) y Administración y Dirección de Empresas (Business Management) en
+            la <strong> Universidad de Sevilla</strong><br> y se especializó en Marketing Digital de Moda (Fashion Digital Marketing) en
+            la <strong>Universidad Complutense de Madrid.</strong><br> Programa EDB (Education Digital Business) en <strong> Escuela
+            Convierte + de Vilma Nuñez, Miami, Florida.</strong> <br><br>
+
+            Experiencia de más de 10 años dirigiendo <strong>Campañas Social & Digital Media, en puestos directivos de
+            Marketing Manager  <br>y realizando asesoramiento jurídico y consultorías</strong> a empresas de moda y belleza. <br>
+            Además, destaca su participación en distintas ponencias como <strong>speaker</strong> internacional y artículos en 
+            revistas del sector legal <br> y de moda como la revista ELLE. <strong>Autora de la primera guía-libro '20 Prompts</strong> <br>
+            ChatGPT Marketing Digital Moda: Aplica Inteligencia Artificial en tu negocio de Moda' del mercado. <br> Ha
+            trabajado como Marketing Manager en la empresa de moda Celopman y en las agencias de publicidad <br>
+            MarujaLimón y MartyMcfly, Ha realizado acciones cross-selling con empresas como Ikea, Grupo Inditex, <br>
+            Grupo Vips, entre otros. Es miembro del <strong>Comité de Expertos en Derecho de la Moda de España</strong>, <br>
+            Portugal, Chile, Perú, Andorra y Argentina (AEDM). 
+          </div>
+        </div>
+      </div>
+      <!-- Bloque 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed parrafos" type="button" data-bs-toggle="collapse" data-bs-target="#panelReto2" aria-expanded="false" aria-controls="panelReto2">
+            RECONOCIMIENTOS
+          </button>
+        </h2>
+        <!-- Panel 2 -->
+        <div id="panelReto2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li> <strong>“Trayectoria profesional y empresa alineada con los ODS, Objetivos Desarrollo Sostenible de
+                la ONU y la mejora de Huella Social en el marco de Economía Social por el Cambio”</strong><br> Por 
+                Fundación COPADE (2024) <br><br>
+                </li>
+              <li><strong>“Mujer Líder 2023 en el ámbito de la moda”</strong> por Fundación Ciencias de la Documentación (2023)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Bloque 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed parrafos" type="button" data-bs-toggle="collapse" data-bs-target="#panelReto3" aria-expanded="false" aria-controls="panelReto3">
+            SPEAKER/CONFERENCIAS
+          </button>
+        </h2>
+        <!-- Panel 3 -->
+        <div id="panelReto3" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <ul>
+              <li>Docente y speaker <strong>'Taller IA Inteligencia Artificial para empresas'</strong> en Bigram Studio, Utrera, Sevilla. <strong>2023</strong></li>
+              <li>Docente y voluntaria en Programa <strong>‘Emprendimiento digital y Marca Personal’</strong> para adolescentes. <strong>2022-23</strong></li>
+              <li>Speaker con ponencia sobre <strong>«Digitalización de empresas Fashion & Beauty»</strong> en VI Congreso Internacional Mujeres Líderes América en Málaga. <strong>2023</strong></li>
+              <li>Speaker con ponencia sobre <strong>«Influencia y crea tu marca 5.0»</strong> en Escuela de Arte de Motril (Granada). <strong>2023</strong></li>
+              <li>Participación en VI Congreso Extremeño Marketing Digital en Badajoz. <strong>2023</strong></li>
+              <li>Participación en <strong>E-SHOW Barcelona 2023</strong> y <strong>E-SHOW Madrid 2023</strong> la mayor feria líder en Marketing Digital e E-commerce.</li>
+              <li>Organizadora y speaker <strong>«Marketing Digital en la Moda Flamenca y retos legales»</strong> en I Jornadas Derecho y Moda Flamenca en Sevilla en Ilustre Colegio de Abogados de Sevilla (ICAS). <strong>2022</strong></li>
+              <li>Docente y speaker <strong>«E-commerce en el sector de la moda»</strong> en III Curso Especial sobre Derecho de la Moda (Fashion Law) organizado por el Ilustre Colegio de Abogados de Madrid (ICAM). <strong>2022</strong></li>
+              <li>Docente y speaker <strong>«Retos legales y digitalización en el sector de la moda»</strong> dentro del seminario <strong>«La evolución de la abogacía: la práctica del derecho en la era digital»</strong> organizado por Phi Delta Phi, Universidad Anáhuac Puebla, México. <strong>2021</strong></li>
+              <li>Coordinación cesión de vestuarios para <strong>«Los Goya»</strong>, series como <strong>«Élite»</strong> y <strong>«La Casa de Papel»</strong>, de Netflix, o programas como <strong>«Cámbiame»</strong>, de Mediaset TV. <strong>2017-2021</strong></li>
+              <li>Speaker con ponencia <strong>«Moda y Derecho desde la óptica de la sostenibilidad»</strong> en Biocultura Madrid (IFEMA). <strong>2017</strong></li>
+          </ul>                    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <!-- FASES -->
+  <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 mb-3 degradado" id="fases">F A S E S</h1>
+  <!-- Contenedor FASES -->
+  <section class="cards row mb-3">
+
+    <hr class=" mt-5 ">
+    <!-- 1º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">1º LANZAMIENTO DEL RETO</h3>
+          <img src="IMG/Icons/cronografo.png" alt="tiempo" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 2º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">2º IDEACIÓN</h3>
+          <img src="IMG/Icons/estrategia.png" alt="idea" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 3º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">3º PROTOTIPAJE</h3>
+          <img src="IMG/Icons/equipo.png" alt="reto" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 4º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">4º PREPARAR PRESENTACIÓN</h3>
+          <img src="IMG/Icons/esquema.png" alt="esquema" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 5º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">5º SOLUCIONES AL RETO</h3>
+          <img src="IMG/Icons/solucion.png" alt="soluciones" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 6º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">6º SELECCIÓN EQUIPO GANADOR POR JUGADO</h3>
+          <img src="IMG/Icons/trabajo-en-equipo.png" alt="equipo" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+    <!-- 7º Carta -->
+    <div class="stack">
+      <div class="card">
+        <div class="image">
+          <h3 class="titulo">7º ENTREGA DE PREMIOS</h3>
+          <img src="IMG/Icons/premio.png" alt="premio" class="img-fluid rounded mt-4">
+        </div>
+      </div>
+    </div>
+
+    <!-- BREAK -->
+
+    <hr class=" mt-5 ">
+    <h3 class="titulo">¿Hacemos un break?</h3>
+    <div class="row d-flex justify-content-center">
+
+      <!-- Primera Colaboración -->
+      <div class="col-md-6 col-lg-3 mt-3">
+        <img src="IMG/Logos/COLABORAN MOCAIBO 2.jpg" alt="mocaibo" class="img-fluid rounded mt-4">
+      </div>
+
+      <!-- Segunda Colaboración -->
+      <div class="col-md-6 col-lg-3 mt-5">
+        <img src="IMG/Logos/COLABORAN DIEGO 1.jpg" alt="diego" class="img-fluid rounded mt-5">
+      </div>
+    </div>
+    <hr class=" my-5">
+
+  </section>
+
+
+
+  <!-- GALERIA -->
+  <h1 class="p-1 text-white text-center fondo__titulo border border-start-0  degradado" id="galeria">G A L E R I A</h1>
+  <div class="container-fluid my-3 ">
+
+
+    <div class="row text-center text-lg-start">
+      <!-- Imagen 1 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102144.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 2 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102154.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 3 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102204.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 4 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102213.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 5 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_110751.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 6 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_125205.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 7 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_125437.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 8 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_125110.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 9 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_125116.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 10 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102144.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 11 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_102144.jpg" alt="2022">
+        </a>
+      </div>
+      <!-- Imagen 12 -->
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail expandir__imagen" src="IMG/IMG-2022/IMG_20220216_125449.jpg" alt="2023">
+        </a>
+
+      </div>
+    </div>
+    <!-- DESARROLLO WEB -->
+    <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 degradado mb-3" id="desarrollo">D E S A R R O L L O&ThinSpace; W E B</h1>
+    <div class="container-fluid text-center my-1 p-5 bg-white mb-3">
+      <p class="parrafos">Página Web creada por el alumno <br> Aarón Gómez Delgado <br> Alumnado 2º DAW IES Ruiz Gijón 2024 <br>
+        <a href="https://www.instagram.com/aarongmez18?igsh=bmg1YWRuaXJjNTYx&utm_source=qr" ><i class="bi bi-instagram parrafos "></i></a>
+    </div>
+
+    <!-- FAQS -->
+    <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 degradado" id="faqs">F A Q S</h1>
+    <div class="faqs mb-2">
+
+
+      <!-- FAQS 1 -->
+      <div>
+      <p>
+        <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#fq1"
+          aria-expanded="false" aria-controls="collapseWidthExample">
+          ¿Cuál es el objetivo de este evento?
+        </button>
+      </p>
+      <div>
+        <div class="collapse collapse-horizontal overflow-hidden  " id="fq1">
+          <div class="card card-body">
+            Hackathon Emprende Intercentros Utrera es una oportunidad para que los alumnos y
+            alumnas participantes pongan acción a sus ideas,<br> participando como protagonistas en la 
+            co-creación de soluciones innovadoras a un reto de una empresa. <br> Esto, además, les
+            permite mostrar su talento a las empresas del entorno.
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- FAQS 2-->
+      <p>
+        <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#fq2"
+          aria-expanded="false" aria-controls="collapseWidthExample">
+          ¿Con qué metodologías se trabajan?
+        </button>
+      </p>
+      <div>
+        <div class="collapse collapse-horizontal overflow-hidden  " id="fq2">
+          <div class="card card-body" >
+            A lo largo del evento, se trabaja con las metodologías más innovadoras del mundo
+            empresarial, <br> como son el prototipado de ideas, el Design Thinking, la técnica del Elevator
+            Pitch, etc.
+          </div>
+        </div>
+      </div>
+      <!-- FAQS 3-->
+      <p>
+        <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#fq3"
+          aria-expanded="false" aria-controls="collapseWidthExample">
+          ¿Qué empresa propondrá el reto?
+        </button>
+      </p>
+      <div>
+        <div class="collapse collapse-horizontal overflow-hidden  " id="fq3">
+          <div class="card card-body" >
+            El reto será propuesto por una empresa del entorno local basándose en su experiencia
+empresarial y en los problemas que como empresario/a afronta cada día.
+          </div>
+        </div>
+      </div>
+<!-- FAQS 4-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#fq4"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Qué modalidades de participación existen?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="fq4">
+    <div class="card card-body" >
+      Sólo se puede participar de manera presencial.
+    </div>
+  </div>
+</div>
+<!-- FAQS 5-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#fq5"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Cómo se desarrolla el evento?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="fq5">
+    <div class="card card-body">
+      Los participantes trabajarán en equipos intercentros e interdisciplinares en un espacio <br>
+preparado exclusivamente para esta jornada y serán provistos con todos los materiales y <br>
+herramientas que necesiten para desarrollar sus propuestas. <br> <br>
+El evento comienza con el lanzamiento del reto por parte del empresario/a. A continuación, <br>
+se asigna a cada equipo una zona de trabajo y se les explican las herramientas con las que <br>
+irán dando forma a su propuesta-solución del resto. <br> <br>
+Los mentores de Andalucía Emprende son los encargados de explicar las herramientas y <br>
+estarán a disposición de los participantes para sus consultas. <br> <br>
+A lo largo de la mañana se hará una pausa para tomar un café (media hora). Los <br>
+participantes disfrutarán de café y un catering dulce de manera gratuita gracias a las <br>
+empresas colaboradoras Confitería Diego Vázquez y Cafés Mocaibo. <br> <br>
+El evento concluye con la elección del equipo ganador y la entrega de premios.
+
+    </div>
+  </div>
+</div>
+<!-- FAQS 6-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f1"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Dónde se celebrará?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f1">
+    <div class="card card-body" >
+      Se celebrará en la planta baja de la Biblioteca Municipal de Utrera, sita en C/ Álvarez
+Quintero, 39.
+    </div>
+  </div>
+</div>
+<!-- FAQS 7-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f2"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿En qué consisten los premios?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f2">
+    <div class="card card-body" >
+      Cada miembro del equipo ganador será premiado con un vale para material escolar
+valorado en 50 €. <br> Dicho vale se podrán canjear en una papelería de la localidad.
+    </div>
+  </div>
+</div>
+<!-- FAQS 8-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f3"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Quién organiza el evento?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f3">
+    <div class="card card-body" >
+      El concepto y formato del evento es de Andalucía Emprende. <br> <br>
+Hackathon Emprende Intercentros Utrera está organizado conjuntamente por <br>El Centro
+Andaluz de Emprendimiento de Utrera, el Instituto de Enseñanza Secundaria, Bachillerato y
+Formación Profesional IES Ponce de León y el Excmo. Ayuntamiento de Utrera.
+
+    </div>
+  </div>
+</div>
+
+<!-- FAQS 9-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f4"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Cuántos alumnos/as debe tener un equipo?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f4">
+    <div class="card card-body" >
+      Los equipos tendrán entre 6 y 7 componentes
+    </div>
+  </div>
+</div>
+<!-- FAQS 10-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f5"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Quién forma los equipos?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f5">
+    <div class="card card-body" >
+      Los equipos los forma la organización teniendo como criterio principal que estos sean lo
+más interdisciplinares posible, puesto que esto enriquece las propuestas de solución
+    </div>
+  </div>
+</div>
+<!-- FAQS 11-->
+<p>
+  <button  class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f6"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Qué tengo que llevar si asisto presencialmente?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f6">
+    <div class="card card-body" >
+      Realmente, sólo necesitas traer ¡muchas ganas de disfrutar! <br>
+Allí, pondremos a disposición de cada equipo un ordenador portátil, así como todos los <br>
+materiales que necesitarás para trabajar (folios, rotuladores, etc.). <br>
+Si quieres traer tu propio dispositivo, por supuesto puedes hacerlo. <br>
+    </div>
+  </div>
+</div>
+<!-- FAQS 10-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f7"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Cuándo sabremos el reto que debemos trabajar?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f7">
+    <div class="card card-body" >
+      El reto se conocerá el mismo día del evento
+    </div>
+  </div>
+</div>
+<!-- FAQS 11-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f8"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿De qué tipo será el reto que encontraremos?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f8">
+    <div class="card card-body" >
+      El reto estará relacionado con los Objetivos de Desarrollo Sostenible (ODS) y con la Agenda
+      2030. <br> Asimismo partirá de un problema real de nuestro entorno más cercano.      
+    </div>
+  </div>
+</div>
+<!-- FAQS 12-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f9"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    Durante la jornada, ¿hay algún tipo de seguimiento?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f9">
+    <div class="card card-body" >
+      Los técnicos presentes de Andalucía Emprende asistirán a los grupos de trabajo siempre
+que los requieran.     
+    </div>
+  </div>
+</div>
+<!-- FAQS 13-->
+<p>
+  <button class="faqs__boton" type="button" data-bs-toggle="collapse" data-bs-target="#f10"
+    aria-expanded="false" aria-controls="collapseWidthExample">
+    ¿Cuándo empieza y cuándo termina el evento?
+  </button>
+</p>
+<div>
+  <div class="collapse collapse-horizontal overflow-hidden  " id="f10">
+    <div class="card card-body  " >
+      El evento tendrá lugar el jueves 22 de febrero de 08:30 h. a 15:00 h. <br> <br>
+Como colofón al evento, se anunciará al equipo ganador seleccionado por el jurado cuyos
+miembros se llevarán a casa su premio.   
+    </div>
+  </div>
+</div>
+
+
+    </div>
+    <!-- Datos -->
+    <h1 class="p-1 text-white text-center fondo__titulo border border-start-0 degradado" id="datos">D A T O S</h1>
+
+    <div class="container-fluid text-center my-3 p-5 bg-white">
+      <p class="parrafos">Lugar de Celebración: Biblioteca Municipal de Utrera <br> <br>
+        C. Álvarez Quintero, 39, 41710 Utrera, Sevilla <br> <br>
+        Horario: De 08.30 a 15.00 h.</p>
+        <a href="https://www.iesponcedeleon.es/search/label/Innicia" class="novedades__boton mt-4 fs-3 text-uppercase fw-bold ">Ver las novedades</a>
+    </div>
+
+
+
+   <!-- Footer -->
+   <footer class="border-top pt-5 mb-5">
+    <div class="container-xl">
+        <div class="text-center border-bottom">
+
+            <!-- 1º Columna - Footer -->
+
+                
+                <!-- Concepto -->
+                <h4 class="titulo p-4 ">Concepto</h4>
+                <nav class="d-flex flex-row gap-4">
+                <img src="IMG/Logos/Logo Nueva Consejeria CADE.jpg" alt="Andalucia" class="img-fluid w-50 ">
+                <img src="IMG/Logos/GESTIONAN CADE 1.jpg" alt="Centro Andaluz" class="img-fluid w-50">
+                </nav>
+                <!-- Organizan -->
+                <h4 class="titulo p-4 mt-5">Organizan</h4>
+                <nav class="d-flex flex-row justify-content-center gap-4">
+                <img src="IMG/Logos/ORGANIZAN IES 3.jpg" alt="Ponce" class="img-fluid w-25">
+                <img src="IMG/Logos/ORGANIZAN AYTO 1.jpeg" alt="Ayuntamiento" class="img-fluid w-25">
+                <img src="IMG/Logos/GESTIONAN CADE 1.jpg" alt="Innicia" class="img-fluid w-25">         
+                </nav>    
+                <!-- Participan -->
+                <h4 class="titulo p-4  mt-5">Participan</h4>
+                <!-- <img src="IMG/Logos/" alt="ruiz" class="img-fluid">              EL DEL RUIZ NO ESTÁ -->
+                <nav class="d-flex flex-row justify-content-center gap-4">
+                <img src="IMG/Logos/IMG-20230303-WA0004.jpg" alt="pastorcito" class="img-fluid w-25">             
+                <img src="IMG/Logos/LOGO PONCE ORGANIZA.png" alt="ponce" class="img-fluid w-25"> <br>             
+                <img src="IMG/Logos/SMX_Utrera.png" alt="salesianos" class="img-fluid w-25">             
+                <img src="IMG/Logos/virgen_consolacion.png" alt="virgen" class="img-fluid w-25">
+                </nav>             
+
+                <!-- Colaboran -->
+                <h4 class="titulo p-4 mt-5">Colaboran</h4>
+                <nav class="d-flex flex-row justify-content-center gap-4 mb-5">
+                <img src="IMG/Logos/COLABORAN DIEGO 1.jpg" alt="diego" class="img-fluid w-25">             
+                <img src="IMG/Logos/COLABORAN MOCAIBO 2.jpg" alt="mocaibo" class="img-fluid w-25 ">
+                </nav>             
+
+    
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+    <script src="JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>
